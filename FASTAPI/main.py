@@ -55,6 +55,7 @@ if __name__ == "__main__":
     import uvicorn
     uvicorn.run(app, host="127.0.0.1", port=8000)
 
+# This will run with python main.py
 # http://127.0.0.1:8000/docs
 # http://127.0.0.1:8000/redoc
 # http://127.0.0.1:8000
